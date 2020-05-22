@@ -1,7 +1,7 @@
 echo "type the number fo files in this  driectory"
 read numero1
 function nfiles {
-polo2=$(ls -l | wc -l)
+polo2=$(ls  | wc -l)
 }
 nfiles
 while [[ $numero1 -ne $polo2 ]]
